@@ -42,27 +42,4 @@
     <version>5.1.1</version>
     </dependency>
 </dependencies>
-<profiles>
-<profile>
-<id>BEE</id>
-<build>
-<plugins>
-    
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.4</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>batchexecution.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-   
-</plugins>
-
-</build>
-
-</profile>
-</profiles>
 </project>
